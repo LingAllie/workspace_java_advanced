@@ -1,0 +1,59 @@
+package com.vti;
+
+import java.util.List;
+
+import com.vti.entity.Group;
+import com.vti.entity.Salary;
+import com.vti.repository.GroupRepository;
+import com.vti.repository.SalaryRepository;
+
+public class ProgramSalary {
+	public static void main(String[] args) {
+		SalaryRepository repository = new SalaryRepository();
+
+//		System.out.println("***********GET ALL SALARIES***********");
+//
+//		List<Salary> salaries = repository.getAllSalaries();
+//
+//		for (Salary salary : salaries) {
+//			System.out.println(salary);
+//		}
+
+//		System.out.println("\n\n***********GET SALARY BY ID***********");
+//
+//		Salary salaryById = repository.getSalaryByID((short) 3);
+//		System.out.println(salaryById);
+
+//		System.out.println("\n\n***********GET SALARY BY NAME***********");
+//
+//		Salary salaryByName = repository.getSalaryByName(600);
+//		System.out.println(salaryByName);
+
+		System.out.println("\n\n***********CREATE Salary***********");
+
+		Salary salaryCreate = new Salary();
+		salaryCreate.setSalaryName(2000);
+		repository.createSalary(salaryCreate);
+
+//		System.out.println("\n\n***********UPDATE GROUP 1***********");
+//
+//		repository.updateGroup((short) 11, "Security");
+
+//		System.out.println("\n\n***********UPDATE GROUP 2***********");
+//
+//		Group groupUpdate = new Group();
+//		groupUpdate.setGroupId((short) 11);
+//		groupUpdate.setGroupName("Security2");
+//		repository.updateGroup(groupUpdate);
+
+//		System.out.println("\n\n***********DELETE GROUPS***********");
+//		repository.deleteGroup((short) 11);
+
+//		System.out.println("***********CHECK GROUP EXISTS BY ID***********");
+//		System.out.println(repository.isGroupExistsByID((short) 11));
+
+//		System.out.println("***********CHECK GROUP EXISTS BY NAME***********");
+//		System.out.println(repository.isGroupExistsByName("Management"));
+
+	}
+}

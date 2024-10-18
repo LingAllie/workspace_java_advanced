@@ -1,0 +1,733 @@
+2024-10-14 19:45:29,673 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-10-14 19:50:49,548 [Worker-50: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.vti:HelloWorld:0.0.1-SNAPSHOT @ D:\JavaAdvanced\Lesson01\1. HelloWorld\HelloWorld\pom.xml.
+2024-10-14 19:50:50,349 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-14 19:50:50,361 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\Lesson01\1. HelloWorld\HelloWorld\src\test\resources
+2024-10-14 19:50:51,188 [Worker-3: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.vti:HelloWorld:0.0.1-SNAPSHOT @ D:\JavaAdvanced\Lesson01\1. HelloWorld\HelloWorld\pom.xml.
+2024-10-14 19:50:51,550 [Worker-40: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hibernate/hibernate-core/5.4.17.Final/hibernate-core-5.4.17.Final-sources.jar
+2024-10-14 19:50:51,782 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-14 19:50:51,789 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\Lesson01\1. HelloWorld\HelloWorld\src\test\resources
+2024-10-14 19:50:54,724 [Worker-40: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hibernate/hibernate-core/5.4.17.Final/hibernate-core-5.4.17.Final-sources.jar
+2024-10-14 19:50:54,729 [Worker-40: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hibernate:hibernate-core:5.4.17.Final
+2024-10-14 19:50:54,866 [Worker-40: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jboss/logging/jboss-logging/3.3.2.Final/jboss-logging-3.3.2.Final-sources.jar
+2024-10-14 19:50:54,914 [Worker-40: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jboss/logging/jboss-logging/3.3.2.Final/jboss-logging-3.3.2.Final-sources.jar
+2024-10-14 19:50:54,917 [Worker-40: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jboss.logging:jboss-logging:3.3.2.Final
+2024-10-14 19:50:55,055 [Worker-40: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2-sources.jar
+2024-10-14 19:50:55,178 [Worker-40: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2-sources.jar
+2024-10-14 19:50:55,184 [Worker-40: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for javax.persistence:javax.persistence-api:2.2
+2024-10-14 19:50:55,342 [Worker-40: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/javassist/javassist/3.24.0-GA/javassist-3.24.0-GA-sources.jar
+2024-10-14 19:50:55,550 [Worker-40: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/javassist/javassist/3.24.0-GA/javassist-3.24.0-GA-sources.jar
+2024-10-14 19:50:55,555 [Worker-40: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.javassist:javassist:3.24.0-GA
+2024-10-14 19:50:55,718 [Worker-40: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.10.10/byte-buddy-1.10.10-sources.jar
+2024-10-14 19:50:56,270 [Worker-40: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.10.10/byte-buddy-1.10.10-sources.jar
+2024-10-14 19:50:56,274 [Worker-40: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for net.bytebuddy:byte-buddy:1.10.10
+2024-10-14 19:50:56,422 [Worker-40: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/antlr/antlr/2.7.7/antlr-2.7.7-sources.jar
+2024-10-14 19:50:56,429 [Worker-40: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for antlr:antlr:2.7.7
+org.eclipse.core.runtime.CoreException: Could not resolve artifact antlr:antlr:jar:sources:2.7.7
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:540)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:509)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:494)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:282)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-10-14 19:50:56,590 [Worker-40: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jboss/spec/javax/transaction/jboss-transaction-api_1.2_spec/1.1.1.Final/jboss-transaction-api_1.2_spec-1.1.1.Final-sources.jar
+2024-10-14 19:50:56,603 [Worker-40: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jboss/spec/javax/transaction/jboss-transaction-api_1.2_spec/1.1.1.Final/jboss-transaction-api_1.2_spec-1.1.1.Final-sources.jar
+2024-10-14 19:50:56,610 [Worker-40: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:1.1.1.Final
+2024-10-14 19:50:56,774 [Worker-40: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jboss/jandex/2.1.3.Final/jandex-2.1.3.Final-sources.jar
+2024-10-14 19:50:56,891 [Worker-40: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jboss/jandex/2.1.3.Final/jandex-2.1.3.Final-sources.jar
+2024-10-14 19:50:56,897 [Worker-40: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jboss:jandex:2.1.3.Final
+2024-10-14 19:50:57,112 [Worker-40: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/classmate/1.5.1/classmate-1.5.1-sources.jar
+2024-10-14 19:50:57,198 [Worker-40: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/classmate/1.5.1/classmate-1.5.1-sources.jar
+2024-10-14 19:50:57,202 [Worker-40: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml:classmate:1.5.1
+2024-10-14 19:50:57,365 [Worker-40: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0-sources.jar
+2024-10-14 19:50:57,453 [Worker-40: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0-sources.jar
+2024-10-14 19:50:57,456 [Worker-40: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for javax.activation:javax.activation-api:1.2.0
+2024-10-14 19:50:57,576 [Worker-40: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/dom4j/dom4j/2.1.3/dom4j-2.1.3-sources.jar
+2024-10-14 19:50:57,871 [Worker-40: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/dom4j/dom4j/2.1.3/dom4j-2.1.3-sources.jar
+2024-10-14 19:50:57,877 [Worker-40: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.dom4j:dom4j:2.1.3
+2024-10-14 19:50:58,017 [Worker-40: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hibernate/common/hibernate-commons-annotations/5.1.0.Final/hibernate-commons-annotations-5.1.0.Final-sources.jar
+2024-10-14 19:50:58,067 [Worker-40: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hibernate/common/hibernate-commons-annotations/5.1.0.Final/hibernate-commons-annotations-5.1.0.Final-sources.jar
+2024-10-14 19:50:58,072 [Worker-40: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hibernate.common:hibernate-commons-annotations:5.1.0.Final
+2024-10-14 19:50:58,245 [Worker-40: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1-sources.jar
+2024-10-14 19:50:58,426 [Worker-40: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1-sources.jar
+2024-10-14 19:50:58,431 [Worker-40: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for javax.xml.bind:jaxb-api:2.3.1
+2024-10-14 19:50:58,594 [Worker-40: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-runtime/2.3.1/jaxb-runtime-2.3.1-sources.jar
+2024-10-14 19:50:59,003 [Worker-40: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-runtime/2.3.1/jaxb-runtime-2.3.1-sources.jar
+2024-10-14 19:50:59,007 [Worker-40: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.glassfish.jaxb:jaxb-runtime:2.3.1
+2024-10-14 19:50:59,160 [Worker-40: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/glassfish/jaxb/txw2/2.3.1/txw2-2.3.1-sources.jar
+2024-10-14 19:50:59,260 [Worker-40: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/glassfish/jaxb/txw2/2.3.1/txw2-2.3.1-sources.jar
+2024-10-14 19:50:59,265 [Worker-40: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.glassfish.jaxb:txw2:2.3.1
+2024-10-14 19:50:59,400 [Worker-40: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/istack/istack-commons-runtime/3.0.7/istack-commons-runtime-3.0.7-sources.jar
+2024-10-14 19:50:59,414 [Worker-40: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/istack/istack-commons-runtime/3.0.7/istack-commons-runtime-3.0.7-sources.jar
+2024-10-14 19:50:59,419 [Worker-40: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.sun.istack:istack-commons-runtime:3.0.7
+2024-10-14 19:50:59,559 [Worker-40: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jvnet/staxex/stax-ex/1.8/stax-ex-1.8-sources.jar
+2024-10-14 19:50:59,604 [Worker-40: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jvnet/staxex/stax-ex/1.8/stax-ex-1.8-sources.jar
+2024-10-14 19:50:59,609 [Worker-40: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jvnet.staxex:stax-ex:1.8
+2024-10-14 19:50:59,737 [Worker-40: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/xml/fastinfoset/FastInfoset/1.2.15/FastInfoset-1.2.15-sources.jar
+2024-10-14 19:50:59,981 [Worker-40: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/xml/fastinfoset/FastInfoset/1.2.15/FastInfoset-1.2.15-sources.jar
+2024-10-14 19:50:59,986 [Worker-40: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.sun.xml.fastinfoset:FastInfoset:1.2.15
+2024-10-14 19:51:00,145 [Worker-40: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/mysql/mysql-connector-java/8.0.20/mysql-connector-java-8.0.20-sources.jar
+2024-10-14 19:51:01,074 [Worker-40: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/mysql/mysql-connector-java/8.0.20/mysql-connector-java-8.0.20-sources.jar
+2024-10-14 19:51:01,079 [Worker-40: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for mysql:mysql-connector-java:8.0.20
+2024-10-14 19:51:01,212 [Worker-40: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java/3.6.1/protobuf-java-3.6.1-sources.jar
+2024-10-14 19:51:01,589 [Worker-40: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java/3.6.1/protobuf-java-3.6.1-sources.jar
+2024-10-14 19:51:01,594 [Worker-40: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.google.protobuf:protobuf-java:3.6.1
+2024-10-14 19:51:46,882 [Worker-51: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-10-14 19:54:38,667 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-10-14 20:08:59,318 [Worker-50: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/antlr/antlr/2.7.7/antlr-2.7.7-javadoc.jar
+2024-10-14 20:08:59,329 [Worker-50: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for antlr:antlr:2.7.7
+org.eclipse.core.runtime.CoreException: Could not resolve artifact antlr:antlr:jar:javadoc:2.7.7
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:540)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:509)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:494)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:294)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-10-14 20:15:43,819 [Worker-56: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-10-14 20:15:44,095 [Worker-56: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.vti:HelloWorld:0.0.1-SNAPSHOT @ D:\JavaAdvanced\Lesson01\1. HelloWorld\HelloWorld\pom.xml.
+2024-10-14 20:15:44,394 [Worker-56: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /HelloWorld/src/main/java
+2024-10-14 20:15:44,396 [Worker-56: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /HelloWorld/src/main/resources
+2024-10-14 20:15:44,403 [Worker-56: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /HelloWorld/src/test/java
+2024-10-14 20:15:44,404 [Worker-56: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /HelloWorld/src/test/resources
+2024-10-14 20:15:44,849 [Worker-56: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2024-10-14 20:15:45,051 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-14 20:15:45,057 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\Lesson01\1. HelloWorld\HelloWorld\src\test\resources
+2024-10-14 20:30:16,994 [Worker-58: Launching TestProgram] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-10-14 20:30:16,999 [Worker-58: Launching TestProgram] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\Lesson01\1. HelloWorld\HelloWorld\src\test\resources
+2024-10-14 20:31:17,628 [Worker-66: Launching TestProgram] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-14 20:31:17,633 [Worker-66: Launching TestProgram] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\Lesson01\1. HelloWorld\HelloWorld\src\test\resources
+2024-10-14 20:33:06,997 [Worker-64: Launching TestProgram] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-14 20:33:07,000 [Worker-64: Launching TestProgram] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\Lesson01\1. HelloWorld\HelloWorld\src\test\resources
+2024-10-14 20:35:53,878 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-10-14 20:35:53,886 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-10-14 20:36:01,558 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-10-14 20:36:01,565 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-10-14 20:36:07,257 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-14 20:36:07,259 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-10-14 20:36:26,543 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-10-14 20:37:05,278 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-10-14 20:37:05,288 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-10-14 20:37:12,930 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-10-14 20:37:12,934 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-10-14 20:40:43,295 [Worker-15: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-10-14 20:40:43,519 [Worker-15: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.vti:HelloWorld:0.0.1-SNAPSHOT @ D:\JavaAdvanced\Lesson01\1. HelloWorld\HelloWorld\pom.xml.
+2024-10-14 20:40:43,737 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /HelloWorld/src/main/java
+2024-10-14 20:40:43,737 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /HelloWorld/src/main/resources
+2024-10-14 20:40:43,739 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /HelloWorld/src/test/java
+2024-10-14 20:40:43,739 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /HelloWorld/src/test/resources
+2024-10-14 20:40:43,908 [Worker-15: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2024-10-14 20:40:44,139 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-10-14 20:40:44,147 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-10-14 20:44:57,488 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-14 20:44:57,500 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-10-14 21:12:22,251 [Worker-60: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.vti:DemoUtilsCRUD:0.0.1-SNAPSHOT @ D:\JavaAdvanced\Lesson01\2. CRUD\DemoUtilsCRUD\pom.xml.
+2024-10-14 21:12:22,354 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-14 21:12:22,356 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\Lesson01\2. CRUD\DemoUtilsCRUD\src\test\resources
+2024-10-14 21:12:22,894 [Worker-62: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.vti:DemoUtilsCRUD:0.0.1-SNAPSHOT @ D:\JavaAdvanced\Lesson01\2. CRUD\DemoUtilsCRUD\pom.xml.
+2024-10-14 21:12:23,497 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-14 21:12:23,499 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\Lesson01\2. CRUD\DemoUtilsCRUD\src\test\resources
+2024-10-14 21:34:10,219 [Worker-70: Launching Program] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-14 21:34:10,221 [Worker-70: Launching Program] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\Lesson01\2. CRUD\DemoUtilsCRUD\src\test\resources
+2024-10-14 21:42:33,330 [Worker-70: Launching Program] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-14 21:42:33,332 [Worker-70: Launching Program] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\Lesson01\2. CRUD\DemoUtilsCRUD\src\test\resources
+2024-10-14 21:43:01,359 [Worker-75: Launching Program] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-14 21:43:01,362 [Worker-75: Launching Program] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\Lesson01\2. CRUD\DemoUtilsCRUD\src\test\resources
+2024-10-14 21:43:45,064 [Worker-73: Launching Program] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-14 21:43:45,066 [Worker-73: Launching Program] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\Lesson01\2. CRUD\DemoUtilsCRUD\src\test\resources
+2024-10-14 21:43:52,874 [Worker-75: Launching Program] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-14 21:43:52,877 [Worker-75: Launching Program] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\Lesson01\2. CRUD\DemoUtilsCRUD\src\test\resources
+2024-10-14 21:43:59,710 [Worker-76: Launching Program] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-14 21:43:59,712 [Worker-76: Launching Program] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\Lesson01\2. CRUD\DemoUtilsCRUD\src\test\resources
+2024-10-14 21:48:41,177 [Worker-79: Launching Program] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-14 21:48:41,178 [Worker-79: Launching Program] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\Lesson01\2. CRUD\DemoUtilsCRUD\src\test\resources
+2024-10-14 21:57:38,483 [Worker-84: Launching Program] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-14 21:57:38,485 [Worker-84: Launching Program] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\Lesson01\2. CRUD\DemoUtilsCRUD\src\test\resources
+2024-10-14 22:00:00,085 [Worker-82: Launching Program] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-14 22:00:00,087 [Worker-82: Launching Program] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\Lesson01\2. CRUD\DemoUtilsCRUD\src\test\resources
+2024-10-14 22:09:01,023 [Worker-86: Launching Program] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-14 22:09:01,026 [Worker-86: Launching Program] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\Lesson01\2. CRUD\DemoUtilsCRUD\src\test\resources
+2024-10-14 22:10:42,383 [Worker-93: Launching Program] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-14 22:10:42,385 [Worker-93: Launching Program] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\Lesson01\2. CRUD\DemoUtilsCRUD\src\test\resources
+2024-10-14 22:11:22,133 [Worker-92: Launching Program] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-14 22:11:22,135 [Worker-92: Launching Program] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\Lesson01\2. CRUD\DemoUtilsCRUD\src\test\resources
+2024-10-15 00:37:09,302 [Worker-119: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-15 00:37:09,304 [Worker-119: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\Lesson01\2. CRUD\DemoUtilsCRUD\src\test\resources
+2024-10-16 20:19:45,700 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-10-16 20:32:46,879 [Worker-49: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.vti:DemoUtilsCRUD:0.0.1-SNAPSHOT @ D:\JavaAdvanced\workspace_java_advanced\TestingSystem\pom.xml.
+2024-10-16 20:32:47,537 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-16 20:32:47,545 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-16 20:32:48,784 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-16 20:32:48,786 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-16 20:46:00,410 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-16 20:46:00,413 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-16 20:50:32,826 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-16 20:50:32,829 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-16 20:50:38,475 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-16 20:50:38,477 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-16 20:51:03,138 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-16 20:51:03,141 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-16 20:52:26,118 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-16 20:52:26,119 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-16 20:55:09,868 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-16 20:55:09,869 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-16 20:56:21,513 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-16 20:56:21,515 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-16 20:56:50,649 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-16 20:56:50,651 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-16 20:57:14,293 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-16 20:57:14,294 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-16 21:02:22,905 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-16 21:02:22,908 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-16 21:03:31,581 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-16 21:03:31,583 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-16 21:06:24,137 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-16 21:06:24,138 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-16 21:11:53,522 [Worker-58: Launching ProgramGroup] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-16 21:11:53,524 [Worker-58: Launching ProgramGroup] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-16 21:12:24,001 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-16 21:12:24,003 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-16 21:14:41,501 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-16 21:14:41,505 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-16 21:16:23,853 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-16 21:16:23,855 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-16 21:17:02,822 [Worker-64: Launching ProgramGroup] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-16 21:17:02,825 [Worker-64: Launching ProgramGroup] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-16 21:18:43,360 [Worker-53: Launching ProgramGroup] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-16 21:18:43,363 [Worker-53: Launching ProgramGroup] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-16 21:19:15,872 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-16 21:19:15,874 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-16 21:20:04,965 [Worker-72: Launching ProgramGroup] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-16 21:20:04,967 [Worker-72: Launching ProgramGroup] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-16 21:21:00,445 [Worker-67: Launching ProgramGroup] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-16 21:21:00,447 [Worker-67: Launching ProgramGroup] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-16 21:21:37,395 [Worker-53: Launching ProgramGroup] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-16 21:21:37,397 [Worker-53: Launching ProgramGroup] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-16 21:22:08,307 [Worker-67: Launching ProgramGroup] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-16 21:22:08,310 [Worker-67: Launching ProgramGroup] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-16 21:22:26,024 [Worker-68: Launching ProgramGroup] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-16 21:22:26,026 [Worker-68: Launching ProgramGroup] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-16 21:22:32,610 [Worker-53: Launching ProgramGroup] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-16 21:22:32,611 [Worker-53: Launching ProgramGroup] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-16 21:22:43,057 [Worker-67: Launching ProgramGroup] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-16 21:22:43,060 [Worker-67: Launching ProgramGroup] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-16 21:23:00,057 [Worker-53: Launching ProgramGroup] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-16 21:23:00,060 [Worker-53: Launching ProgramGroup] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-16 21:23:05,601 [Worker-68: Launching ProgramGroup] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-16 21:23:05,604 [Worker-68: Launching ProgramGroup] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-16 21:23:32,668 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-16 21:23:32,672 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-16 21:46:57,541 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-16 21:46:57,543 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-16 21:47:04,200 [Worker-77: Launching ProgramGroup] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-16 21:47:04,203 [Worker-77: Launching ProgramGroup] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-16 23:37:37,491 [Worker-101: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-16 23:37:37,494 [Worker-101: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-17 08:45:25,401 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-10-17 08:49:53,266 [Worker-18: Launching mavenrun-03b9e872-a533-43ab-a64d-4ca2cc555fcd] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313 [642])
+2024-10-17 08:49:53,269 [Worker-18: Launching mavenrun-03b9e872-a533-43ab-a64d-4ca2cc555fcd] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Linh\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313
+2024-10-17 08:49:53,270 [Worker-18: Launching mavenrun-03b9e872-a533-43ab-a64d-4ca2cc555fcd] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Linh\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\aopalliance-1.0.jar
+2024-10-17 08:49:53,270 [Worker-18: Launching mavenrun-03b9e872-a533-43ab-a64d-4ca2cc555fcd] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Linh\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\guice-5.1.0.jar
+2024-10-17 08:49:53,270 [Worker-18: Launching mavenrun-03b9e872-a533-43ab-a64d-4ca2cc555fcd] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Linh\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\httpclient-4.5.14.jar
+2024-10-17 08:49:53,270 [Worker-18: Launching mavenrun-03b9e872-a533-43ab-a64d-4ca2cc555fcd] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Linh\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\httpcore-4.4.16.jar
+2024-10-17 08:49:53,271 [Worker-18: Launching mavenrun-03b9e872-a533-43ab-a64d-4ca2cc555fcd] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Linh\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\jansi-2.4.1.jar
+2024-10-17 08:49:53,271 [Worker-18: Launching mavenrun-03b9e872-a533-43ab-a64d-4ca2cc555fcd] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Linh\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\jcl-over-slf4j-1.7.36.jar
+2024-10-17 08:49:53,271 [Worker-18: Launching mavenrun-03b9e872-a533-43ab-a64d-4ca2cc555fcd] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Linh\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\maven-artifact-3.9.7.jar
+2024-10-17 08:49:53,271 [Worker-18: Launching mavenrun-03b9e872-a533-43ab-a64d-4ca2cc555fcd] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Linh\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\maven-builder-support-3.9.7.jar
+2024-10-17 08:49:53,271 [Worker-18: Launching mavenrun-03b9e872-a533-43ab-a64d-4ca2cc555fcd] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Linh\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\maven-compat-3.9.7.jar
+2024-10-17 08:49:53,271 [Worker-18: Launching mavenrun-03b9e872-a533-43ab-a64d-4ca2cc555fcd] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Linh\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\maven-core-3.9.7.jar
+2024-10-17 08:49:53,271 [Worker-18: Launching mavenrun-03b9e872-a533-43ab-a64d-4ca2cc555fcd] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Linh\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\maven-embedder-3.9.7.jar
+2024-10-17 08:49:53,272 [Worker-18: Launching mavenrun-03b9e872-a533-43ab-a64d-4ca2cc555fcd] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Linh\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\maven-model-3.9.7.jar
+2024-10-17 08:49:53,272 [Worker-18: Launching mavenrun-03b9e872-a533-43ab-a64d-4ca2cc555fcd] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Linh\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\maven-model-builder-3.9.7.jar
+2024-10-17 08:49:53,272 [Worker-18: Launching mavenrun-03b9e872-a533-43ab-a64d-4ca2cc555fcd] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Linh\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\maven-plugin-api-3.9.7.jar
+2024-10-17 08:49:53,272 [Worker-18: Launching mavenrun-03b9e872-a533-43ab-a64d-4ca2cc555fcd] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Linh\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\maven-repository-metadata-3.9.7.jar
+2024-10-17 08:49:53,272 [Worker-18: Launching mavenrun-03b9e872-a533-43ab-a64d-4ca2cc555fcd] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Linh\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\maven-resolver-api-1.9.20.jar
+2024-10-17 08:49:53,272 [Worker-18: Launching mavenrun-03b9e872-a533-43ab-a64d-4ca2cc555fcd] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Linh\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\maven-resolver-connector-basic-1.9.20.jar
+2024-10-17 08:49:53,272 [Worker-18: Launching mavenrun-03b9e872-a533-43ab-a64d-4ca2cc555fcd] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Linh\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\maven-resolver-impl-1.9.20.jar
+2024-10-17 08:49:53,272 [Worker-18: Launching mavenrun-03b9e872-a533-43ab-a64d-4ca2cc555fcd] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Linh\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\maven-resolver-named-locks-1.9.20.jar
+2024-10-17 08:49:53,273 [Worker-18: Launching mavenrun-03b9e872-a533-43ab-a64d-4ca2cc555fcd] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Linh\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\maven-resolver-provider-3.9.7.jar
+2024-10-17 08:49:53,273 [Worker-18: Launching mavenrun-03b9e872-a533-43ab-a64d-4ca2cc555fcd] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Linh\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\maven-resolver-spi-1.9.20.jar
+2024-10-17 08:49:53,273 [Worker-18: Launching mavenrun-03b9e872-a533-43ab-a64d-4ca2cc555fcd] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Linh\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\maven-resolver-transport-file-1.9.20.jar
+2024-10-17 08:49:53,273 [Worker-18: Launching mavenrun-03b9e872-a533-43ab-a64d-4ca2cc555fcd] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Linh\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\maven-resolver-transport-http-1.9.20.jar
+2024-10-17 08:49:53,273 [Worker-18: Launching mavenrun-03b9e872-a533-43ab-a64d-4ca2cc555fcd] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Linh\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\maven-resolver-transport-wagon-1.9.20.jar
+2024-10-17 08:49:53,273 [Worker-18: Launching mavenrun-03b9e872-a533-43ab-a64d-4ca2cc555fcd] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Linh\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\maven-resolver-util-1.9.20.jar
+2024-10-17 08:49:53,273 [Worker-18: Launching mavenrun-03b9e872-a533-43ab-a64d-4ca2cc555fcd] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Linh\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\maven-settings-3.9.7.jar
+2024-10-17 08:49:53,273 [Worker-18: Launching mavenrun-03b9e872-a533-43ab-a64d-4ca2cc555fcd] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Linh\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\maven-settings-builder-3.9.7.jar
+2024-10-17 08:49:53,273 [Worker-18: Launching mavenrun-03b9e872-a533-43ab-a64d-4ca2cc555fcd] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Linh\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\maven-shared-utils-3.4.2.jar
+2024-10-17 08:49:53,274 [Worker-18: Launching mavenrun-03b9e872-a533-43ab-a64d-4ca2cc555fcd] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Linh\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\org.eclipse.sisu.inject-0.9.0.M2.jar
+2024-10-17 08:49:53,274 [Worker-18: Launching mavenrun-03b9e872-a533-43ab-a64d-4ca2cc555fcd] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Linh\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\org.eclipse.sisu.plexus-0.9.0.M2.jar
+2024-10-17 08:49:53,274 [Worker-18: Launching mavenrun-03b9e872-a533-43ab-a64d-4ca2cc555fcd] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Linh\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\plexus-build-api-0.0.7.jar
+2024-10-17 08:49:53,274 [Worker-18: Launching mavenrun-03b9e872-a533-43ab-a64d-4ca2cc555fcd] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Linh\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\plexus-build-api-1.2.0.jar
+2024-10-17 08:49:53,274 [Worker-18: Launching mavenrun-03b9e872-a533-43ab-a64d-4ca2cc555fcd] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Linh\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\plexus-cipher-2.0.jar
+2024-10-17 08:49:53,274 [Worker-18: Launching mavenrun-03b9e872-a533-43ab-a64d-4ca2cc555fcd] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Linh\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\plexus-classworlds-2.8.0.jar
+2024-10-17 08:49:53,274 [Worker-18: Launching mavenrun-03b9e872-a533-43ab-a64d-4ca2cc555fcd] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Linh\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\plexus-component-annotations-2.1.0.jar
+2024-10-17 08:49:53,274 [Worker-18: Launching mavenrun-03b9e872-a533-43ab-a64d-4ca2cc555fcd] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Linh\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\plexus-interpolation-1.27.jar
+2024-10-17 08:49:53,275 [Worker-18: Launching mavenrun-03b9e872-a533-43ab-a64d-4ca2cc555fcd] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Linh\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\plexus-sec-dispatcher-2.0.jar
+2024-10-17 08:49:53,275 [Worker-18: Launching mavenrun-03b9e872-a533-43ab-a64d-4ca2cc555fcd] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Linh\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\plexus-utils-3.5.1.jar
+2024-10-17 08:49:53,275 [Worker-18: Launching mavenrun-03b9e872-a533-43ab-a64d-4ca2cc555fcd] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Linh\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\wagon-file-3.5.3.jar
+2024-10-17 08:49:53,275 [Worker-18: Launching mavenrun-03b9e872-a533-43ab-a64d-4ca2cc555fcd] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Linh\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\wagon-http-3.5.3.jar
+2024-10-17 08:49:53,275 [Worker-18: Launching mavenrun-03b9e872-a533-43ab-a64d-4ca2cc555fcd] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Linh\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\wagon-http-shared-3.5.3.jar
+2024-10-17 08:49:53,275 [Worker-18: Launching mavenrun-03b9e872-a533-43ab-a64d-4ca2cc555fcd] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Linh\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\wagon-provider-api-3.5.3.jar
+2024-10-17 08:49:53,277 [Worker-18: Launching mavenrun-03b9e872-a533-43ab-a64d-4ca2cc555fcd] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_33.2.0.jre [16])
+2024-10-17 08:49:53,277 [Worker-18: Launching mavenrun-03b9e872-a533-43ab-a64d-4ca2cc555fcd] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Linh\.p2\pool\plugins\com.google.guava_33.2.0.jre.jar
+2024-10-17 08:49:53,278 [Worker-18: Launching mavenrun-03b9e872-a533-43ab-a64d-4ca2cc555fcd] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_2.0.13 [1007])
+2024-10-17 08:49:53,278 [Worker-18: Launching mavenrun-03b9e872-a533-43ab-a64d-4ca2cc555fcd] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Linh\.p2\pool\plugins\slf4j.api_2.0.13.jar
+2024-10-17 08:49:53,278 [Worker-18: Launching mavenrun-03b9e872-a533-43ab-a64d-4ca2cc555fcd] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=jakarta.inject.jakarta.inject-api_1.0.5 [33])
+2024-10-17 08:49:53,278 [Worker-18: Launching mavenrun-03b9e872-a533-43ab-a64d-4ca2cc555fcd] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Linh\.p2\pool\plugins\jakarta.inject.jakarta.inject-api_1.0.5.jar
+2024-10-17 08:49:53,278 [Worker-18: Launching mavenrun-03b9e872-a533-43ab-a64d-4ca2cc555fcd] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.annotation_1.3.5.v20200909-1856 [44])
+2024-10-17 08:49:53,278 [Worker-18: Launching mavenrun-03b9e872-a533-43ab-a64d-4ca2cc555fcd] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Linh\.p2\pool\plugins\javax.annotation_1.3.5.v20200909-1856.jar
+2024-10-17 08:49:53,279 [Worker-18: Launching mavenrun-03b9e872-a533-43ab-a64d-4ca2cc555fcd] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.cli_1.8.0 [78])
+2024-10-17 08:49:53,279 [Worker-18: Launching mavenrun-03b9e872-a533-43ab-a64d-4ca2cc555fcd] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Linh\.p2\pool\plugins\org.apache.commons.cli_1.8.0.jar
+2024-10-17 08:49:53,279 [Worker-18: Launching mavenrun-03b9e872-a533-43ab-a64d-4ca2cc555fcd] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.commons-codec_1.16.0 [81])
+2024-10-17 08:49:53,279 [Worker-18: Launching mavenrun-03b9e872-a533-43ab-a64d-4ca2cc555fcd] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Linh\.p2\pool\plugins\org.apache.commons.commons-codec_1.16.0.jar
+2024-10-17 08:49:53,279 [Worker-18: Launching mavenrun-03b9e872-a533-43ab-a64d-4ca2cc555fcd] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.lang3_3.14.0 [89])
+2024-10-17 08:49:53,279 [Worker-18: Launching mavenrun-03b9e872-a533-43ab-a64d-4ca2cc555fcd] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Linh\.p2\pool\plugins\org.apache.commons.lang3_3.14.0.jar
+2024-10-17 08:49:53,279 [Worker-18: Launching mavenrun-03b9e872-a533-43ab-a64d-4ca2cc555fcd] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava.failureaccess_1.0.2 [17])
+2024-10-17 08:49:53,280 [Worker-18: Launching mavenrun-03b9e872-a533-43ab-a64d-4ca2cc555fcd] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Linh\.p2\pool\plugins\com.google.guava.failureaccess_1.0.2.jar
+2024-10-17 08:49:53,283 [Worker-18: Launching mavenrun-03b9e872-a533-43ab-a64d-4ca2cc555fcd] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\Linh\AppData\Local\Temp\m2e-archetypeGenerator15750820478596753114":
+2024-10-17 08:49:53,287 [Worker-18: Launching mavenrun-03b9e872-a533-43ab-a64d-4ca2cc555fcd] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -DarchetypeGroupId=org.apache.maven.archetypes -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.1 -DgroupId=com.tnl -DartifactId=Practice -Dversion=0.0.1-SNAPSHOT -Dpackage=com.tnl.utils -DoutputDirectory=D:\JavaAdvanced\workspace_java_advanced -Dstyle.color=always -U archetype:generate
+2024-10-17 08:50:52,325 [Worker-47: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' D:\JavaAdvanced\workspace_java_advanced\Practice\pom.xml
+2024-10-17 08:50:52,970 [Worker-47: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.tnl:Practice:0.0.1-SNAPSHOT @ D:\JavaAdvanced\workspace_java_advanced\Practice\pom.xml.
+2024-10-17 08:50:53,836 [Worker-47: Creating maven-archetype-quickstart] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Practice/src/main/java
+2024-10-17 08:50:53,845 [Worker-47: Creating maven-archetype-quickstart] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Practice/src/main/resources
+2024-10-17 08:50:53,901 [Worker-47: Creating maven-archetype-quickstart] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Practice/src/test/java
+2024-10-17 08:50:53,902 [Worker-47: Creating maven-archetype-quickstart] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Practice/src/test/resources
+2024-10-17 08:50:54,027 [Worker-47: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 1 sec
+2024-10-17 08:50:54,378 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\Practice\src\main\resources
+2024-10-17 08:50:54,384 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\Practice\src\test\resources
+2024-10-17 08:51:24,115 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\Practice\src\main\resources
+2024-10-17 08:51:24,117 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\Practice\src\test\resources
+2024-10-17 08:53:50,903 [Worker-50: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.tnl:Practice:0.0.1-SNAPSHOT @ D:\JavaAdvanced\workspace_java_advanced\Practice\pom.xml.
+2024-10-17 08:53:51,215 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\Practice\src\main\resources
+2024-10-17 08:53:51,219 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\Practice\src\test\resources
+2024-10-17 08:53:51,730 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\Practice\src\main\resources
+2024-10-17 08:53:51,733 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\Practice\src\test\resources
+2024-10-17 08:54:27,030 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-17 08:54:27,034 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\Practice\src\test\resources
+2024-10-17 08:55:36,382 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 08:55:36,389 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\Practice\src\test\resources
+2024-10-17 09:03:48,376 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 09:03:48,381 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\Practice\src\test\resources
+2024-10-17 09:04:50,714 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 09:04:50,716 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\Practice\src\test\resources
+2024-10-17 09:14:39,825 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 09:14:39,827 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\Practice\src\test\resources
+2024-10-17 09:17:00,434 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 09:17:00,438 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\Practice\src\test\resources
+2024-10-17 09:22:20,794 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 09:22:20,798 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-17 10:07:21,408 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 10:07:21,411 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\Practice\src\test\resources
+2024-10-17 16:16:53,894 [Worker-19: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-10-17 16:17:36,064 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 16:17:36,073 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\Practice\src\test\resources
+2024-10-17 16:17:36,829 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 16:17:36,831 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-17 16:20:58,194 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 16:20:58,199 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-17 17:06:55,100 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 17:06:55,103 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-17 17:07:29,696 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 17:07:29,699 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-17 17:08:13,376 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 17:08:13,379 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-17 19:31:11,499 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 19:31:11,501 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-17 19:31:30,078 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 19:31:30,079 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-17 19:32:32,746 [Worker-84: Launching ProgramAccount] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 19:32:32,747 [Worker-84: Launching ProgramAccount] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-17 19:33:55,618 [Worker-86: Launching ProgramAccount] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 19:33:55,621 [Worker-86: Launching ProgramAccount] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-17 19:36:20,113 [Worker-85: Launching ProgramAccount] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 19:36:20,114 [Worker-85: Launching ProgramAccount] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-17 19:54:34,665 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 19:54:34,666 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-17 20:11:33,652 [Worker-95: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 20:11:33,653 [Worker-95: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-17 20:11:57,050 [Worker-95: Launching ProgramAccount] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 20:11:57,051 [Worker-95: Launching ProgramAccount] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-17 20:17:54,963 [Worker-101: Launching ProgramAccount] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 20:17:54,964 [Worker-101: Launching ProgramAccount] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-17 20:18:54,569 [Worker-99: Launching ProgramAccount] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 20:18:54,570 [Worker-99: Launching ProgramAccount] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-17 20:20:42,803 [Worker-99: Launching ProgramAccount] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 20:20:42,804 [Worker-99: Launching ProgramAccount] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-17 20:21:12,142 [Worker-101: Launching ProgramAccount] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 20:21:12,144 [Worker-101: Launching ProgramAccount] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-17 20:21:30,457 [Worker-95: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 20:21:30,458 [Worker-95: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-17 20:24:19,178 [Worker-99: Launching ProgramAccount] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 20:24:19,180 [Worker-99: Launching ProgramAccount] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-17 20:26:56,787 [Worker-100: Launching ProgramAccount] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 20:26:56,787 [Worker-100: Launching ProgramAccount] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-17 20:37:16,746 [Worker-107: Launching ProgramAccount] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 20:37:16,747 [Worker-107: Launching ProgramAccount] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-17 20:49:27,135 [Worker-116: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 20:49:27,136 [Worker-116: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-17 20:51:18,329 [Worker-118: Launching ProgramAccount] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 20:51:18,330 [Worker-118: Launching ProgramAccount] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-17 21:14:23,471 [Worker-127: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 21:14:23,473 [Worker-127: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-17 21:15:35,290 [Worker-125: Launching ProgramAccount] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 21:15:35,291 [Worker-125: Launching ProgramAccount] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-17 21:16:35,543 [Worker-121: Launching ProgramAccount] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 21:16:35,544 [Worker-121: Launching ProgramAccount] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-17 21:17:02,232 [Worker-125: Launching ProgramAccount] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 21:17:02,235 [Worker-125: Launching ProgramAccount] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-17 21:17:07,336 [Worker-127: Launching ProgramAccount] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 21:17:07,337 [Worker-127: Launching ProgramAccount] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-17 21:18:01,755 [Worker-121: Launching ProgramAccount] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 21:18:01,756 [Worker-121: Launching ProgramAccount] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-17 21:18:08,400 [Worker-121: Launching ProgramAccount] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 21:18:08,401 [Worker-121: Launching ProgramAccount] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-17 21:33:36,710 [Worker-121: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 21:33:36,711 [Worker-121: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-17 21:33:57,981 [Worker-133: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 21:33:57,984 [Worker-133: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-17 21:40:12,622 [Worker-125: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 21:40:12,625 [Worker-125: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-17 21:41:01,220 [Worker-133: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 21:41:01,221 [Worker-133: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-17 21:45:03,057 [Worker-121: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 21:45:03,058 [Worker-121: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-17 21:45:23,640 [Worker-134: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 21:45:23,641 [Worker-134: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-17 22:14:01,406 [Worker-142: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 22:14:01,407 [Worker-142: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-17 22:14:17,415 [Worker-146: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 22:14:17,416 [Worker-146: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-17 22:14:49,789 [Worker-142: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 22:14:49,790 [Worker-142: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-17 22:15:10,272 [Worker-147: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 22:15:10,273 [Worker-147: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-17 22:18:38,439 [Worker-148: Launching ProgramPosition] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 22:18:38,440 [Worker-148: Launching ProgramPosition] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-17 22:31:25,920 [Worker-154: Launching ProgramPosition] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 22:31:25,923 [Worker-154: Launching ProgramPosition] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-17 22:33:33,252 [Worker-154: Launching ProgramPosition] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 22:33:33,253 [Worker-154: Launching ProgramPosition] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-17 22:34:51,911 [Worker-154: Launching ProgramPosition] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 22:34:51,911 [Worker-154: Launching ProgramPosition] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-17 22:35:02,241 [Worker-153: Launching ProgramPosition] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 22:35:02,242 [Worker-153: Launching ProgramPosition] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-17 22:37:22,872 [Worker-153: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 22:37:22,873 [Worker-153: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-17 22:37:35,430 [Worker-156: Launching ProgramPosition] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 22:37:35,431 [Worker-156: Launching ProgramPosition] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-17 22:37:54,913 [Worker-156: Launching ProgramPosition] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 22:37:54,914 [Worker-156: Launching ProgramPosition] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-17 22:38:35,399 [Worker-152: Launching ProgramPosition] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 22:38:35,400 [Worker-152: Launching ProgramPosition] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-17 22:46:48,989 [Worker-161: Launching ProgramPosition] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 22:46:48,991 [Worker-161: Launching ProgramPosition] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-17 22:47:33,879 [Worker-163: Launching ProgramPosition] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 22:47:33,880 [Worker-163: Launching ProgramPosition] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-17 22:50:44,594 [Worker-156: Launching ProgramPosition] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 22:50:44,596 [Worker-156: Launching ProgramPosition] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-17 22:53:21,133 [Worker-161: Launching ProgramPosition] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 22:53:21,134 [Worker-161: Launching ProgramPosition] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-17 22:53:58,576 [Worker-166: Launching ProgramPosition] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 22:53:58,577 [Worker-166: Launching ProgramPosition] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-17 22:54:03,648 [Worker-165: Launching ProgramPosition] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 22:54:03,649 [Worker-165: Launching ProgramPosition] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-17 22:54:20,269 [Worker-166: Launching ProgramPosition] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 22:54:20,270 [Worker-166: Launching ProgramPosition] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-17 22:54:28,759 [Worker-165: Launching ProgramPosition] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 22:54:28,760 [Worker-165: Launching ProgramPosition] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-17 22:54:55,859 [Worker-152: Launching ProgramPosition] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 22:54:55,860 [Worker-152: Launching ProgramPosition] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-17 22:55:15,696 [Worker-156: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 22:55:15,697 [Worker-156: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-17 22:55:55,084 [Worker-156: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 22:55:55,086 [Worker-156: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-17 23:01:45,362 [Worker-156: Building Workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 23:01:45,363 [Worker-156: Building Workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-17 23:06:03,234 [Worker-172: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 23:06:03,235 [Worker-172: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-17 23:09:12,668 [Worker-173: Building Workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 23:09:12,671 [Worker-173: Building Workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-17 23:10:01,996 [Worker-173: Launching ProgramSalary] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 23:10:01,997 [Worker-173: Launching ProgramSalary] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-17 23:10:36,892 [Worker-171: Launching ProgramSalary] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 23:10:36,892 [Worker-171: Launching ProgramSalary] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-17 23:11:08,723 [Worker-172: Launching ProgramSalary] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 23:11:08,724 [Worker-172: Launching ProgramSalary] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-17 23:11:14,780 [Worker-164: Launching ProgramSalary] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 23:11:14,781 [Worker-164: Launching ProgramSalary] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-17 23:12:14,700 [Worker-161: Launching ProgramSalary] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 23:12:14,701 [Worker-161: Launching ProgramSalary] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-17 23:13:13,217 [Worker-171: Launching ProgramSalary] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 23:13:13,219 [Worker-171: Launching ProgramSalary] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-17 23:14:11,119 [Worker-175: Launching ProgramSalary] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 23:14:11,121 [Worker-175: Launching ProgramSalary] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-17 23:15:44,847 [Worker-176: Launching ProgramSalary] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 23:15:44,848 [Worker-176: Launching ProgramSalary] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-17 23:16:04,735 [Worker-173: Launching ProgramSalary] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 23:16:04,736 [Worker-173: Launching ProgramSalary] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-17 23:17:10,734 [Worker-161: Launching ProgramSalary] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 23:17:10,735 [Worker-161: Launching ProgramSalary] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-17 23:17:35,343 [Worker-175: Launching ProgramSalary] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 23:17:35,344 [Worker-175: Launching ProgramSalary] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-17 23:18:02,336 [Worker-164: Launching ProgramSalary] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 23:18:02,336 [Worker-164: Launching ProgramSalary] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-17 23:18:09,353 [Worker-164: Launching ProgramSalary] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 23:18:09,354 [Worker-164: Launching ProgramSalary] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-17 23:18:14,526 [Worker-173: Launching ProgramSalary] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 23:18:14,526 [Worker-173: Launching ProgramSalary] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-17 23:18:48,176 [Worker-171: Launching ProgramSalary] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 23:18:48,178 [Worker-171: Launching ProgramSalary] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-17 23:19:05,244 [Worker-161: Launching ProgramSalary] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 23:19:05,245 [Worker-161: Launching ProgramSalary] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-17 23:19:12,090 [Worker-173: Launching ProgramSalary] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 23:19:12,090 [Worker-173: Launching ProgramSalary] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-17 23:19:21,217 [Worker-161: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 23:19:21,218 [Worker-161: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-17 23:20:27,133 [Worker-176: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 23:20:27,134 [Worker-176: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-17 23:25:20,470 [Worker-172: Building Workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 23:25:20,471 [Worker-172: Building Workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-17 23:28:51,873 [Worker-171: Building Workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 23:28:51,874 [Worker-171: Building Workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-17 23:33:02,470 [Worker-180: Launching ProgramTypeQuestion] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 23:33:02,471 [Worker-180: Launching ProgramTypeQuestion] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-17 23:36:45,998 [Worker-177: Launching ProgramTypeQuestion] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 23:36:45,999 [Worker-177: Launching ProgramTypeQuestion] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-17 23:37:16,573 [Worker-179: Launching ProgramTypeQuestion] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 23:37:16,574 [Worker-179: Launching ProgramTypeQuestion] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-17 23:38:41,529 [Worker-182: Launching ProgramTypeQuestion] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 23:38:41,530 [Worker-182: Launching ProgramTypeQuestion] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-17 23:41:38,312 [Worker-185: Launching ProgramTypeQuestion] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 23:41:38,314 [Worker-185: Launching ProgramTypeQuestion] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-17 23:42:16,426 [Worker-179: Launching ProgramTypeQuestion] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 23:42:16,427 [Worker-179: Launching ProgramTypeQuestion] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-17 23:45:25,277 [Worker-181: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 23:45:25,278 [Worker-181: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-17 23:48:08,506 [Worker-179: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 23:48:08,507 [Worker-179: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-17 23:50:11,839 [Worker-185: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 23:50:11,840 [Worker-185: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-17 23:50:44,717 [Worker-185: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 23:50:44,718 [Worker-185: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-17 23:53:57,418 [Worker-186: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 23:53:57,419 [Worker-186: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-17 23:54:13,874 [Worker-185: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 23:54:13,875 [Worker-185: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-17 23:54:36,055 [Worker-186: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 23:54:36,056 [Worker-186: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-17 23:57:56,627 [Worker-185: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 23:57:56,629 [Worker-185: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-17 23:58:12,934 [Worker-186: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 23:58:12,935 [Worker-186: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-17 23:59:11,224 [Worker-185: Launching ProgramCategoryQuestion] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 23:59:11,225 [Worker-185: Launching ProgramCategoryQuestion] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-17 23:59:55,863 [Worker-185: Launching ProgramCategoryQuestion] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-17 23:59:55,863 [Worker-185: Launching ProgramCategoryQuestion] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-18 00:00:30,974 [Worker-187: Launching ProgramCategoryQuestion] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-18 00:00:30,975 [Worker-187: Launching ProgramCategoryQuestion] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-18 00:03:47,685 [Worker-179: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-18 00:03:47,686 [Worker-179: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-18 09:55:27,962 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-10-18 09:56:27,327 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-18 09:56:27,339 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-18 09:56:43,683 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-18 09:56:43,687 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-18 09:57:00,194 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-18 09:57:00,197 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-18 09:57:25,165 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-18 09:57:25,168 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-18 09:57:56,602 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-18 09:57:56,605 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-18 10:01:44,311 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-18 10:01:44,313 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-18 10:02:02,287 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-18 10:02:02,290 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-18 10:02:41,814 [Worker-6: Building Workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-18 10:02:41,818 [Worker-6: Building Workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-18 10:13:21,221 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-18 10:13:21,225 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-18 10:13:40,254 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-18 10:13:40,258 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-18 10:22:57,378 [Worker-49: Launching ProgramQuestion] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-18 10:22:57,381 [Worker-49: Launching ProgramQuestion] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-18 10:23:34,670 [Worker-53: Launching ProgramQuestion] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-18 10:23:34,672 [Worker-53: Launching ProgramQuestion] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-18 10:24:59,417 [Worker-49: Launching ProgramQuestion] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-18 10:24:59,419 [Worker-49: Launching ProgramQuestion] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-18 10:27:52,151 [Worker-53: Launching ProgramQuestion] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-18 10:27:52,156 [Worker-53: Launching ProgramQuestion] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-18 10:38:01,873 [Worker-60: Launching ProgramQuestion] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-18 10:38:01,876 [Worker-60: Launching ProgramQuestion] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-18 10:40:07,365 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-18 10:40:07,368 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-18 10:41:25,715 [Worker-61: Launching ProgramQuestion] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-18 10:41:25,719 [Worker-61: Launching ProgramQuestion] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-18 10:46:34,938 [Worker-66: Launching ProgramQuestion] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-18 10:46:34,940 [Worker-66: Launching ProgramQuestion] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-18 10:46:59,164 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-18 10:46:59,166 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-18 10:52:34,678 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-18 10:52:34,682 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-18 10:52:48,175 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-18 10:52:48,176 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-18 10:56:27,414 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-18 10:56:27,417 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-18 10:56:40,116 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-18 10:56:40,118 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-18 10:56:47,515 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-18 10:56:47,517 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-18 10:57:02,030 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-18 10:57:02,033 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-18 10:57:27,461 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-18 10:57:27,463 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-18 10:57:47,051 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-18 10:57:47,054 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-18 10:57:53,723 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-18 10:57:53,727 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-18 10:58:00,909 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-18 10:58:00,911 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-18 10:58:18,443 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-18 10:58:18,445 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-18 11:00:09,005 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-18 11:00:09,008 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-18 11:06:44,906 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-18 11:06:44,907 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-18 11:08:18,483 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-18 11:08:18,484 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-18 11:08:20,646 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-18 11:08:20,675 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-18 11:08:23,761 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-18 11:08:23,763 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-18 11:50:03,554 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-18 11:50:03,557 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-18 12:21:32,377 [Worker-80: Launching ProgramAnswer] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-18 12:21:32,390 [Worker-80: Launching ProgramAnswer] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-18 12:22:23,520 [Worker-80: Launching ProgramAnswer] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-18 12:22:23,523 [Worker-80: Launching ProgramAnswer] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-18 12:22:59,004 [Worker-83: Launching ProgramAnswer] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-18 12:22:59,006 [Worker-83: Launching ProgramAnswer] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-18 12:23:44,290 [Worker-80: Launching ProgramAnswer] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-18 12:23:44,293 [Worker-80: Launching ProgramAnswer] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-18 12:24:11,892 [Worker-81: Launching ProgramAnswer] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-18 12:24:11,894 [Worker-81: Launching ProgramAnswer] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-18 12:27:39,613 [Worker-79: Launching ProgramAnswer] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-18 12:27:39,614 [Worker-79: Launching ProgramAnswer] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-18 12:27:56,684 [Worker-77: Launching ProgramAnswer] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-18 12:27:56,685 [Worker-77: Launching ProgramAnswer] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-18 12:28:04,302 [Worker-82: Launching ProgramAnswer] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-18 12:28:04,302 [Worker-82: Launching ProgramAnswer] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-18 12:30:33,679 [Worker-85: Launching ProgramAnswer] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-18 12:30:33,680 [Worker-85: Launching ProgramAnswer] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-18 12:31:19,271 [Worker-84: Launching ProgramAnswer] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-18 12:31:19,272 [Worker-84: Launching ProgramAnswer] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-18 12:31:32,693 [Worker-85: Launching ProgramAnswer] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-18 12:31:32,693 [Worker-85: Launching ProgramAnswer] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-18 12:31:42,606 [Worker-82: Launching ProgramAnswer] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-18 12:31:42,607 [Worker-82: Launching ProgramAnswer] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-18 12:32:31,968 [Worker-82: Launching ProgramAnswer] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-18 12:32:31,969 [Worker-82: Launching ProgramAnswer] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-18 12:32:46,470 [Worker-77: Launching ProgramAnswer] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-18 12:32:46,471 [Worker-77: Launching ProgramAnswer] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-18 12:33:39,845 [Worker-84: Launching ProgramAnswer] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-18 12:33:39,846 [Worker-84: Launching ProgramAnswer] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-18 12:34:41,062 [Worker-80: Launching ProgramAnswer] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-18 12:34:41,063 [Worker-80: Launching ProgramAnswer] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-18 12:34:46,587 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-18 12:34:46,588 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-18 12:35:26,794 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-18 12:35:26,795 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-18 12:35:44,942 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-18 12:35:44,943 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-18 12:36:03,420 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-18 12:36:03,421 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-18 12:45:37,936 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-18 12:45:37,938 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-18 12:45:59,869 [Worker-88: Building Workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-18 12:45:59,871 [Worker-88: Building Workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-18 12:46:07,612 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-18 12:46:07,613 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-18 12:57:49,474 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-18 12:57:49,475 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-18 12:59:12,975 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-18 12:59:12,976 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-18 13:06:00,982 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-18 13:06:00,983 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-18 13:06:03,062 [Worker-91: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-18 13:06:03,063 [Worker-91: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-18 18:59:35,095 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-10-18 19:02:12,127 [Worker-31: Launching ProgramExam] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-18 19:02:12,132 [Worker-31: Launching ProgramExam] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-18 19:03:17,031 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-18 19:03:17,034 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-18 19:04:00,279 [Worker-49: Launching ProgramExam] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-18 19:04:00,281 [Worker-49: Launching ProgramExam] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-18 19:04:18,533 [Worker-50: Launching ProgramExam] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-18 19:04:18,536 [Worker-50: Launching ProgramExam] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-18 19:04:44,431 [Worker-8: Launching ProgramExam] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-18 19:04:44,432 [Worker-8: Launching ProgramExam] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-18 19:04:58,725 [Worker-49: Launching ProgramExam] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-18 19:04:58,726 [Worker-49: Launching ProgramExam] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-18 19:05:12,732 [Worker-48: Launching ProgramExam] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-18 19:05:12,734 [Worker-48: Launching ProgramExam] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-18 19:05:19,829 [Worker-51: Launching ProgramExam] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-18 19:05:19,831 [Worker-51: Launching ProgramExam] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-18 19:05:28,481 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-18 19:05:28,482 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-18 19:05:58,954 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-18 19:05:58,956 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-18 19:07:47,776 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-18 19:07:47,778 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-18 19:14:14,891 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-18 19:14:14,893 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-18 19:14:23,423 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-18 19:14:23,427 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-18 19:15:42,446 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-18 19:15:42,448 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-18 19:21:25,578 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-18 19:21:25,579 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-18 19:21:27,125 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-18 19:21:27,135 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-18 19:27:54,845 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-18 19:27:54,846 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-18 19:28:18,439 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-18 19:28:18,442 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-18 19:30:36,218 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-18 19:30:36,220 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-18 19:32:03,937 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-18 19:32:03,938 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-18 19:33:47,580 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-18 19:33:47,582 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-18 19:34:15,876 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-18 19:34:15,880 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-18 19:36:55,762 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-18 19:36:55,763 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-18 19:37:10,698 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-18 19:37:10,699 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-18 19:37:47,672 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-18 19:37:47,674 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-18 19:38:11,472 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-18 19:38:11,473 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-18 19:38:41,762 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-18 19:38:41,764 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-18 19:39:46,700 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-18 19:39:46,701 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources

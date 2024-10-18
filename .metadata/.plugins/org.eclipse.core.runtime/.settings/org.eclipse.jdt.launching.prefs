@@ -1,0 +1,3 @@
+eclipse.preferences.version=1
+org.eclipse.jdt.launching.PREF_DEFAULT_ENVIRONMENTS_XML=
+org.eclipse.jdt.launching.PREF_VM_XML=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<vmSettings defaultVM\="57,org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType13,1728910247693" defaultVMConnector\="">\r\n    <vmType id\="org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType">\r\n        <vm id\="1728910247693" name\="jdk-22" path\="C\:\\Program Files\\Java\\jdk-22"/>\r\n        <vm id\="C\:\\Users\\Linh\\AppData\\Local\\Programs\\Eclipse Adoptium\\jdk-17.0.11.9-hotspot" name\="jdk-17.0.11.9-hotspot" path\="C\:\\Users\\Linh\\AppData\\Local\\Programs\\Eclipse Adoptium\\jdk-17.0.11.9-hotspot"/>\r\n    </vmType>\r\n</vmSettings>\r\n

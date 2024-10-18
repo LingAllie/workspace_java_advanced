@@ -1,0 +1,5 @@
+package com.vti.utils;
+
+public enum Positions {
+	DEV, TEST, SCRUMMASTER, PM
+}

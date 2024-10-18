@@ -1,0 +1,59 @@
+package com.vti;
+
+import java.util.List;
+
+import com.vti.entity.Group;
+import com.vti.entity.TypeQuestion;
+import com.vti.repository.GroupRepository;
+import com.vti.repository.TypeQuestionRepository;
+
+public class ProgramTypeQuestion {
+	public static void main(String[] args) {
+		TypeQuestionRepository repository = new TypeQuestionRepository();
+
+//		System.out.println("***********GET ALL TYPE QUESTIONS***********");
+//
+//		List<TypeQuestion> typeQuestions = repository.getAllTypeQuestions();
+//
+//		for (TypeQuestion typeQuestion : typeQuestions) {
+//			System.out.println(typeQuestion);
+//		}
+
+//		System.out.println("\n\n***********GET TYPE QUESTION BY ID***********");
+//
+//		TypeQuestion typeQuestionById = repository.getTypeQuestionByID((short) 2);
+//		System.out.println(typeQuestionById);
+
+		System.out.println("\n\n***********GET TYPE QUESTION BY NAME***********");
+
+		TypeQuestion typeQuestionByName = repository.getTypeQuestionByName(true);
+		System.out.println(typeQuestionByName);
+
+//		System.out.println("\n\n***********CREATE GROUP***********");
+//
+//		Group groupCreate = new Group();
+//		groupCreate.setGroupName("TDTU");
+//		repository.createGroup(groupCreate);
+
+//		System.out.println("\n\n***********UPDATE GROUP 1***********");
+//
+//		repository.updateGroup((short) 11, "Security");
+
+//		System.out.println("\n\n***********UPDATE GROUP 2***********");
+//
+//		Group groupUpdate = new Group();
+//		groupUpdate.setGroupId((short) 11);
+//		groupUpdate.setGroupName("Security2");
+//		repository.updateGroup(groupUpdate);
+
+//		System.out.println("\n\n***********DELETE GROUPS***********");
+//		repository.deleteGroup((short) 11);
+
+//		System.out.println("***********CHECK GROUP EXISTS BY ID***********");
+//		System.out.println(repository.isGroupExistsByID((short) 11));
+
+//		System.out.println("***********CHECK GROUP EXISTS BY NAME***********");
+//		System.out.println(repository.isGroupExistsByName("Management"));
+
+	}
+}

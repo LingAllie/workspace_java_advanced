@@ -1,0 +1,59 @@
+package com.vti;
+
+import java.util.List;
+
+import com.vti.entity.Group;
+import com.vti.entity.Position;
+import com.vti.repository.GroupRepository;
+import com.vti.repository.PositionRepository;
+
+public class ProgramPosition {
+	public static void main(String[] args) {
+		PositionRepository repository = new PositionRepository();
+
+//		System.out.println("***********GET ALL POSITIONS***********");
+//
+//		List<Position> positions = repository.getAllPositions();
+//
+//		for (Position position : positions) {
+//			System.out.println(position);
+//		}
+
+		System.out.println("\n\n***********GET POSITION BY ID***********");
+
+		Position positionById = repository.getPositionByID((short) 3);
+		System.out.println(positionById);
+
+//		System.out.println("\n\n***********GET GROUP BY NAME***********");
+//
+//		Group groupByName = repository.getGroupByName("Management");
+//		System.out.println(groupByName);
+
+//		System.out.println("\n\n***********CREATE GROUP***********");
+//
+//		Group groupCreate = new Group();
+//		groupCreate.setGroupName("TDTU");
+//		repository.createGroup(groupCreate);
+
+//		System.out.println("\n\n***********UPDATE GROUP 1***********");
+//
+//		repository.updateGroup((short) 11, "Security");
+
+//		System.out.println("\n\n***********UPDATE GROUP 2***********");
+//
+//		Group groupUpdate = new Group();
+//		groupUpdate.setGroupId((short) 11);
+//		groupUpdate.setGroupName("Security2");
+//		repository.updateGroup(groupUpdate);
+
+//		System.out.println("\n\n***********DELETE GROUPS***********");
+//		repository.deleteGroup((short) 11);
+
+//		System.out.println("***********CHECK GROUP EXISTS BY ID***********");
+//		System.out.println(repository.isGroupExistsByID((short) 11));
+
+//		System.out.println("***********CHECK GROUP EXISTS BY NAME***********");
+//		System.out.println(repository.isGroupExistsByName("Management"));
+
+	}
+}
