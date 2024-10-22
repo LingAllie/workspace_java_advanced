@@ -30,7 +30,7 @@ public class ProgramSalary {
 //		System.out.println("\n\n***********CREATE Salary***********");
 //
 //		Salary salaryCreate = new Salary();
-//		salaryCreate.setSalaryName(2000);
+//		salaryCreate.setSalaryName(Salary.SalaryName.PM);
 //		repository.createSalary(salaryCreate);
 
 //		System.out.println("\n\n***********UPDATE SALARY 1***********");

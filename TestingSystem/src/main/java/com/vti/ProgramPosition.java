@@ -31,7 +31,7 @@ public class ProgramPosition {
 //		System.out.println("\n\n***********CREATE POSITION***********");
 //
 //		Position positionCreate = new Position();
-//		positionCreate.setPositionName("DEV");
+//		positionCreate.setPositionName(Position.PositionName.TEST);
 //		repository.createPosition(positionCreate);
 
 //		System.out.println("\n\n***********UPDATE POSITION 1***********");
@@ -47,7 +47,7 @@ public class ProgramPosition {
 		
 		
 //		System.out.println("\n\n***********DELETE POSITION***********");
-//		repository.deletePosition((short) 1);
+//		repository.deletePosition((short) 2);
 
 //		System.out.println("***********CHECK POSITION EXISTS BY ID***********");
 //		System.out.println(repository.isPositionExistsByID((short) 2));

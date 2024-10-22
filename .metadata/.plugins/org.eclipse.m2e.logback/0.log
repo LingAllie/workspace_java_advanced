@@ -731,3 +731,26 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact antlr:antlr:j
 2024-10-18 19:38:41,764 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
 2024-10-18 19:39:46,700 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2024-10-18 19:39:46,701 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-21 20:10:25,686 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-10-21 20:10:28,808 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-21 20:10:28,817 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\Practice\src\test\resources
+2024-10-21 20:10:30,029 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-21 20:10:30,033 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystem\src\test\resources
+2024-10-21 20:11:16,403 [Worker-38: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.vti:DemoEnum:0.0.1-SNAPSHOT @ D:\JavaAdvanced\Lesson02\1. Enum\1. Ordinal value\DemoEnum\pom.xml.
+2024-10-21 20:11:16,600 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-21 20:11:16,603 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\Lesson02\1. Enum\1. Ordinal value\DemoEnum\src\test\resources
+2024-10-21 20:11:17,628 [Worker-24: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.vti:DemoEnum:0.0.1-SNAPSHOT @ D:\JavaAdvanced\Lesson02\1. Enum\1. Ordinal value\DemoEnum\pom.xml.
+2024-10-21 20:11:18,284 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-21 20:11:18,287 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\Lesson02\1. Enum\1. Ordinal value\DemoEnum\src\test\resources
+2024-10-21 20:15:32,740 [Worker-36: Launching Program (1)] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-21 20:15:32,742 [Worker-36: Launching Program (1)] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\Lesson02\1. Enum\1. Ordinal value\DemoEnum\src\test\resources
+2024-10-21 20:20:51,804 [Worker-51: Launching Program (1)] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-21 20:20:51,809 [Worker-51: Launching Program (1)] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\Lesson02\1. Enum\1. Ordinal value\DemoEnum\src\test\resources
+2024-10-21 20:21:01,526 [Worker-46: Launching Program (1)] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-21 20:21:01,529 [Worker-46: Launching Program (1)] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\Lesson02\1. Enum\1. Ordinal value\DemoEnum\src\test\resources
+2024-10-21 20:34:09,779 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-21 20:34:09,782 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\Lesson02\1. Enum\1. Ordinal value\DemoEnum\src\test\resources
+2024-10-21 21:27:28,611 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-21 21:27:28,613 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\Lesson02\1. Enum\1. Ordinal value\DemoEnum\src\test\resources
+2024-10-21 21:28:30,612 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-21 21:28:30,619 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\Lesson02\1. Enum\1. Ordinal value\DemoEnum\src\test\resources

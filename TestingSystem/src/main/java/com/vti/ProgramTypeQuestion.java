@@ -30,7 +30,7 @@ public class ProgramTypeQuestion {
 //		System.out.println("\n\n***********CREATE TYPE QUESTION***********");
 //
 //		TypeQuestion typeQuestionCreate = new TypeQuestion();
-//		typeQuestionCreate.setTypeName(true);
+//		typeQuestionCreate.setTypeName(TypeQuestion.TypeName.MULTIPLECHOICE);
 //		repository.createTypeQuestion(typeQuestionCreate);
 
 //		System.out.println("\n\n***********UPDATE TYPE QUESTION 1***********");

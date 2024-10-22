@@ -3,6 +3,7 @@ package com.vti.entity;
 import java.io.Serializable;
 
 import javax.persistence.Column;
+import javax.persistence.Convert;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -21,12 +22,13 @@ public class Position implements Serializable{
 	private short positionId;
 	
 	@Column(name = "PositionName", nullable = false, unique = true)
-	private String positionName;
+	@Convert(converter = PositionNameConverter.class)
+	private PositionName positionName;
 	
 	public Position() {}
 
 
-	public Position(short positionId, String positionName) {
+	public Position(short positionId, PositionName positionName) {
 		super();
 		this.positionId = positionId;
 		this.positionName = positionName;
@@ -40,11 +42,11 @@ public class Position implements Serializable{
 		this.positionId = positionId;
 	}
 
-	public String getPositionName() {
+	public PositionName getPositionName() {
 		return positionName;
 	}
 
-	public void setPositionName(String positionName) {
+	public void setPositionName(PositionName positionName) {
 		this.positionName = positionName;
 	}
 
@@ -55,6 +57,27 @@ public class Position implements Serializable{
 	}
 	
 	
-	
+	public enum PositionName {
+		DEV("Dev"), TEST("Test"), SCRUMMASTER("ScrumMaster"), PM("PM");
+		
+		private String name;
+		
+		private PositionName(String name) {
+			this.name = name;
+		}
+		
+		public String getName() {
+			return this.name;
+		}
+		
+		public static PositionName toEnum(String sqlName) {
+			for (PositionName item: PositionName.values()) {
+				if (item.getName().equals(sqlName)) {
+					return item;
+				}
+			}
+			return null;
+		}
+	}
 	
 }

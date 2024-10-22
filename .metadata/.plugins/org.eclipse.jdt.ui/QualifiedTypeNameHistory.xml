@@ -44,4 +44,5 @@
     <fullyQualifiedTypeName name="javax.persistence.PrePersist"/>
     <fullyQualifiedTypeName name="com.vti.entity.Exam"/>
     <fullyQualifiedTypeName name="com.vti.repository.ExamRepository"/>
+    <fullyQualifiedTypeName name="javax.persistence.Convert"/>
 </qualifiedTypeNameHistroy>

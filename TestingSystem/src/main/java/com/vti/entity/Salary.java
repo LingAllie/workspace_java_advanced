@@ -3,6 +3,7 @@ package com.vti.entity;
 import java.io.Serializable;
 
 import javax.persistence.Column;
+import javax.persistence.Convert;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -23,20 +24,21 @@ public class Salary implements Serializable{
 	private short salaryId;
 	
 	@Column(name = "SalaryName", nullable = false, unique = true)
-	private int salaryName;
+	@Convert(converter = SalaryNameConverter.class)
+	private SalaryName salaryName;
 	
-	@PrePersist
-	@PreUpdate
-	public void validateSalaryName() {
-		if (salaryName != 600 && salaryName != 700 && salaryName != 1500 && salaryName != 2000) {
-            throw new IllegalArgumentException("Invalid Salary Name");
-        }
-	}
+//	@PrePersist
+//	@PreUpdate
+//	public void validateSalaryName() {
+//		if (salaryName != 600 && salaryName != 700 && salaryName != 1500 && salaryName != 2000) {
+//            throw new IllegalArgumentException("Invalid Salary Name");
+//        }
+//	}
 
 	public Salary() {
 	}
 
-	public Salary(short salaryId, int salaryName) {
+	public Salary(short salaryId, SalaryName salaryName) {
 		this.salaryId = salaryId;
 		this.salaryName = salaryName;
 	}
@@ -49,11 +51,11 @@ public class Salary implements Serializable{
 		this.salaryId = salaryId;
 	}
 
-	public int getSalaryName() {
+	public SalaryName getSalaryName() {
 		return salaryName;
 	}
 
-	public void setSalaryName(int salaryName) {
+	public void setSalaryName(SalaryName salaryName) {
 		this.salaryName = salaryName;
 	}
 
@@ -62,6 +64,27 @@ public class Salary implements Serializable{
 		return "Salary [salaryId=" + salaryId + ", salaryName=" + salaryName + "]";
 	}
 	
-	
+	public enum SalaryName {
+		DEV("600"), TEST("700"), SCRUMMASTER("1500"), PM("2000");
+		
+		private String salaryName;
+		
+		private SalaryName(String salaryName) {
+			this.salaryName = salaryName;
+		}
+		
+		public String getSalaryName() {
+			return salaryName;
+		}
+		
+		public static SalaryName toEnum(String sqlName) {
+			for (SalaryName item: SalaryName.values()) {
+				if (item.getSalaryName().equals(sqlName)) {
+					return item;
+				}
+			}
+			return null;
+		}
+	}
 
 }
