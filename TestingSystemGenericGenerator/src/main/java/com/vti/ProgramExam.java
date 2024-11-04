@@ -29,7 +29,7 @@ public class ProgramExam {
 //		Exam examByName = repository.getExamByName("SQL");
 //		System.out.println(examByName);
 
-		System.out.println("\n\n***********CREATE EXAM***********");
+//		System.out.println("\n\n***********CREATE EXAM***********");
 
 		Exam examCreate = new Exam();
 		examCreate.setExamTitle("C##C");

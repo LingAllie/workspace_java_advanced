@@ -29,6 +29,7 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.tnl.entity"/>
 			<item value="com.tnl.utils"/>
 		</list>
 		<list key="groupId">

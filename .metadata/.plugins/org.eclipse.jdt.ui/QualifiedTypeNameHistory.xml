@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.tnl.utils.HibernateUtils"/>
-    <fullyQualifiedTypeName name="org.hibernate.cfg.Configuration"/>
-    <fullyQualifiedTypeName name="org.hibernate.SessionFactory"/>
-    <fullyQualifiedTypeName name="javax.imageio.spi.ServiceRegistry"/>
-    <fullyQualifiedTypeName name="org.hibernate.service.ServiceRegistry"/>
-    <fullyQualifiedTypeName name="org.hibernate.boot.registry.StandardServiceRegistryBuilder"/>
-    <fullyQualifiedTypeName name="org.hibernate.annotations.Entity"/>
     <fullyQualifiedTypeName name="org.hibernate.annotations.Table"/>
     <fullyQualifiedTypeName name="org.hibernate.annotations.Formula"/>
     <fullyQualifiedTypeName name="com.vti.repository.AccountRepository"/>
@@ -49,15 +42,22 @@
     <fullyQualifiedTypeName name="javax.persistence.EnumType"/>
     <fullyQualifiedTypeName name="org.hibernate.annotations.Type"/>
     <fullyQualifiedTypeName name="java.util.UUID"/>
-    <fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
     <fullyQualifiedTypeName name="javax.persistence.PrePersist"/>
     <fullyQualifiedTypeName name="org.hibernate.id.IdentifierGenerator"/>
     <fullyQualifiedTypeName name="com.vti.repository.ExamRepository"/>
     <fullyQualifiedTypeName name="org.hibernate.annotations.GenericGenerator"/>
     <fullyQualifiedTypeName name="com.vti.entity.ExamCodeGenerator"/>
-    <fullyQualifiedTypeName name="com.vti.entity.Exam.CodePK"/>
-    <fullyQualifiedTypeName name="javax.persistence.EmbeddedId"/>
     <fullyQualifiedTypeName name="javax.persistence.IdClass"/>
     <fullyQualifiedTypeName name="javax.persistence.Embeddable"/>
     <fullyQualifiedTypeName name="java.io.Serializable"/>
+    <fullyQualifiedTypeName name="javax.persistence.EmbeddedId"/>
+    <fullyQualifiedTypeName name="com.vti.entity.Exam.CodePK"/>
+    <fullyQualifiedTypeName name="javax.annotation.processing.Generated"/>
+    <fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
+    <fullyQualifiedTypeName name="javax.persistence.OneToOne"/>
+    <fullyQualifiedTypeName name="javax.persistence.JoinColumn"/>
+    <fullyQualifiedTypeName name="com.vti.entity.User"/>
+    <fullyQualifiedTypeName name="com.vti.entity.Address"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="com.vti.repository.AddressRepository"/>
 </qualifiedTypeNameHistroy>

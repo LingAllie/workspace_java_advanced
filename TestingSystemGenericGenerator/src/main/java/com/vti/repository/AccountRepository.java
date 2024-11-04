@@ -6,7 +6,6 @@ import org.hibernate.Session;
 import org.hibernate.query.Query;
 
 import com.vti.entity.Account;
-import com.vti.entity.Group;
 import com.vti.utils.HibernateUtils;
 
 public class AccountRepository {

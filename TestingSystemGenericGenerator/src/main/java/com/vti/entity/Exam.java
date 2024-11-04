@@ -3,13 +3,12 @@ package com.vti.entity;
 import java.io.Serializable;
 import java.util.Date;
 
+import javax.annotation.processing.Generated;
 import javax.persistence.Column;
-import javax.persistence.Embeddable;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.IdClass;
 import javax.persistence.PrePersist;
 import javax.persistence.Table;
 import javax.persistence.Temporal;
@@ -18,8 +17,6 @@ import javax.persistence.TemporalType;
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.GenericGenerator;
 
-import com.vti.entity.Exam.CodePK;
-
 @Entity
 @Table(name = "Exam")
 public class Exam implements Serializable{
@@ -27,6 +24,7 @@ public class Exam implements Serializable{
 	private static final long serialVersionUID = 1L;
 	
 	@Column(name = "ExamID")
+//	@GeneratedValue(strategy = GenerationType.AUTO)
 	private short examId;
 	
 	@Column(name = "Code1", length = 10, nullable = false)

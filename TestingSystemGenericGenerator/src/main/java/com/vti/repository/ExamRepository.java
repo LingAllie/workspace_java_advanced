@@ -5,7 +5,6 @@ import java.util.List;
 import org.hibernate.Session;
 import org.hibernate.query.Query;
 
-import com.vti.entity.Department;
 import com.vti.entity.Exam;
 import com.vti.utils.HibernateUtils;
 

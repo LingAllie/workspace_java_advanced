@@ -114,7 +114,7 @@ public class ExamRepository {
 				exam.setCode2("S-" + (count + 1));
 			}
 			
-			exam.setExamId((short) (getCount() + 1));
+//			exam.setExamId((short) (getCount() + 1));
 			
 			session.beginTransaction();
 
