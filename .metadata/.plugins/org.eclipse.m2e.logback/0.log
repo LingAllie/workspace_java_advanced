@@ -2717,3 +2717,60 @@ org.eclipse.core.runtime.CoreException: Launch configuration Program (1) referen
 2024-10-31 22:41:16,039 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
 2024-10-31 22:42:33,652 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
 2024-11-03 12:40:02,741 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-11-07 20:11:03,613 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-11-07 20:11:46,534 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-07 20:11:46,541 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\Lesson03\3. ManyToMany\2. Using a Composite Key\DemoEnum\DemoEnum\src\test\resources
+2024-11-07 20:11:46,875 [Worker-29: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.vti:DemoEnum:0.0.1-SNAPSHOT @ D:\JavaAdvanced\Lesson04\1. Inheritance\3. Joined\Joined\Joined\pom.xml.
+2024-11-07 20:11:47,655 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-07 20:11:47,657 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\Lesson04\1. Inheritance\3. Joined\Joined\Joined\src\test\resources
+2024-11-07 20:11:47,895 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-07 20:11:47,897 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\Lesson01\2. CRUD\DemoUtilsCRUD\src\test\resources
+2024-11-07 20:11:48,076 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-07 20:11:48,079 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-11-07 20:11:48,240 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-07 20:11:48,241 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\Lesson03\3. ManyToMany\1. Basic\DemoEnum\ManyToManyBasic\src\test\resources
+2024-11-07 20:11:48,399 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-07 20:11:48,401 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\Lesson03\3. ManyToMany\3. New entity\DemoEnum\DemoEnum\src\test\resources
+2024-11-07 20:11:48,561 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-07 20:11:48,562 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\Lesson03\2. OneToMany\DemoEnum\src\test\resources
+2024-11-07 20:11:48,752 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-07 20:11:48,755 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\Lesson03\1. OneToOne\1. Example 1\DemoEnum\src\test\resources
+2024-11-07 20:11:48,881 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-07 20:11:48,884 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\Practice\src\test\resources
+2024-11-07 20:11:49,206 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-07 20:11:49,209 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystemGenericGenerator\src\test\resources
+2024-11-07 20:11:49,503 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-07 20:11:49,506 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystemPrimaryKey\src\test\resources
+2024-11-07 20:12:42,210 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-11-07 20:44:41,961 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-11-07 20:44:45,897 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-07 20:44:45,904 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\Lesson03\3. ManyToMany\2. Using a Composite Key\DemoEnum\DemoEnum\src\test\resources
+2024-11-07 20:44:46,597 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-07 20:44:46,602 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\Lesson04\1. Inheritance\3. Joined\Joined\Joined\src\test\resources
+2024-11-07 20:44:46,840 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-07 20:44:46,843 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\Lesson01\2. CRUD\DemoUtilsCRUD\src\test\resources
+2024-11-07 20:44:46,983 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-07 20:44:46,988 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-11-07 20:44:47,202 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-07 20:44:47,205 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\Lesson03\3. ManyToMany\1. Basic\DemoEnum\ManyToManyBasic\src\test\resources
+2024-11-07 20:44:47,372 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-07 20:44:47,375 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\Lesson03\3. ManyToMany\3. New entity\DemoEnum\DemoEnum\src\test\resources
+2024-11-07 20:44:47,530 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-07 20:44:47,531 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\Lesson03\2. OneToMany\DemoEnum\src\test\resources
+2024-11-07 20:44:47,709 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-07 20:44:47,711 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\Lesson03\1. OneToOne\1. Example 1\DemoEnum\src\test\resources
+2024-11-07 20:44:47,897 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-07 20:44:47,900 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\Practice\src\test\resources
+2024-11-07 20:44:48,208 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-07 20:44:48,212 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystemGenericGenerator\src\test\resources
+2024-11-07 20:44:48,460 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-07 20:44:48,463 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\workspace_java_advanced\TestingSystemPrimaryKey\src\test\resources
+2024-11-08 00:28:26,661 [Worker-94: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.vti:Demo:0.0.1-SNAPSHOT @ D:\JavaAdvanced\Lesson04\2. HQL\Demo\HQLProject\pom.xml.
+2024-11-08 00:28:26,888 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-08 00:28:26,895 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\Lesson04\2. HQL\Demo\HQLProject\src\test\resources
+2024-11-08 00:28:27,922 [Worker-88: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.vti:Demo:0.0.1-SNAPSHOT @ D:\JavaAdvanced\Lesson04\2. HQL\Demo\HQLProject\pom.xml.
+2024-11-08 00:28:28,277 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-08 00:28:28,280 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\Lesson04\2. HQL\Demo\HQLProject\src\test\resources
+2024-11-20 20:56:25,891 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-11-20 20:56:34,511 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-20 20:56:34,737 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\JavaAdvanced\Lesson04\2. HQL\Demo\HQLProject\src\test\resources

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment8</title>
+    <link rel="stylesheet" href="./Libraries/FontAwesome-6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <div>Management</div>
+            <div class="sidebar__item sidebar__item1">Department <i class="fas fa-briefcase"></i></div>
+            <div class="sidebar__item sidebar__item2">Account <i class="fas fa-people-group"></i>
+            </div>
+        </div>
+
+        <!-- Main -->
+        <div class="main">
+
+            <!-- Top Navigation Bar -->
+            <div class="main__navbar">
+                <div class="main__navbar--search">
+                    <input type="search" name="" id="search" placeholder="search name...">
+                    <i class="fas fa-magnifying-glass"></i>
+                </div>
+                <div class="main__navbar--filter">
+                    <i class="fas fa-filter"></i>
+                    
+                    <div class="option">None</div>
+                    <ul class="filter_option">
+                        <li id="option1">ID</li>
+                        <li id="option2">Total Member</li>
+                        <li id="option3">Created Date</li>
+                        <li id="option4">Year</li>
+                        <li id="option5">Account's quantity</li>
+                        <li id="option6">
+                            Department Type
+                            <ul class="filter_type">
+                                <li id="type1">Dev</li>
+                                <li id="type2">Test</li>
+                                <li id="type3">ScrumMaster</li>
+                                <li id="type4">PM</li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <div class="filter_limit">
+                        <input type="number" name="" id="min" placeholder="from">
+                        -
+                        <input type="number" name="" id="max" placeholder="to">
+                    </div>
+                </div>
+               
+                <div class="main__navbar--act">
+                    <div class="act__create">New</div>
+                    <div class="act__delete">AllDel</i></div>
+                    <div class="act__reset">Reset</div>
+                </div>
+                <div class="main__navbar--admin">
+                    <span>Bei An Ying</span>
+                    <img src="./images/main_ava.jpg" alt="admin_ava">
+                </div>
+            </div>
+
+            <!-- Content -->
+            <div class="main__content">
+
+                <div class="notify">Create successfully !</div>
+
+                <!-- Table -->
+                <div class="table department_table">
+                </div>
+
+                <div class="table account_table">
+                </div>
+
+                <div class="save-cancel_state">
+                    <button id="cancel_table_state">Cancel</button>
+                    <button id="save_table_state">Save</button>
+                </div>
+
+                <!-- Pages -->
+                <div class="pages">
+                    <i class="fas fa-angles-left" id="prev"></i>
+                    <span id="first_page">1</span>
+                    /
+                    <span id="last_page"></span>
+                    <i class="fas fa-angles-right" id="next"></i>
+                </div>
+            </div>
+            
+            <div class="footer">
+                ☘️ This page has just implemented needed js for assignment 8. The others's js will be updated later. ☘️
+            </div>
+        </div>
+
+        <!-- Forms -->
+         <div class="forms">
+            <div class="create_form"></div>
+            <div class="delete_all_form"></div>
+            <div class="delete_form"></div>
+            <div class="edit_form"></div>
+         </div>
+
+    </div>
+
+    <script src="./Libraries/JQuery/jquery-3.7.1.min.js"></script>
+    <script src="./js/fetchData.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>

@@ -10,6 +10,8 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="D:\JavaAdvanced\Lesson04\2. HQL\Demo\HQLProject"/>
+			<item value="D:\JavaAdvanced\Lesson04\1. Inheritance\3. Joined\Joined\Joined"/>
 			<item value="D:\JavaAdvanced\Lesson03\3. ManyToMany\3. New entity\DemoEnum\DemoEnum"/>
 			<item value="D:\JavaAdvanced\Lesson03\3. ManyToMany\2. Using a Composite Key\DemoEnum\DemoEnum"/>
 			<item value="D:\JavaAdvanced\Lesson03\3. ManyToMany\1. Basic\DemoEnum\ManyToManyBasic"/>
